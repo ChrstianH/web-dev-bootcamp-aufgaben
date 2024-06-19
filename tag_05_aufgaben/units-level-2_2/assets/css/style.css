@@ -1,0 +1,18 @@
+body {
+    background-image: url("../img/abdul-razak-syed-MPm3g2huuLY-unsplash.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100vw 100vh;
+}
+
+h1 {
+    text-align: center;
+    background-color: gray;
+    opacity: 0.5;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+}
