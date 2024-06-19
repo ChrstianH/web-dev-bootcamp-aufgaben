@@ -1,0 +1,32 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main div {
+    display: inline-block;
+}
+
+main div div {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+main div div:first-of-type {
+    background-color: gold;
+}
+
+main div div:nth-of-type(2) {
+    background-image: url(../img/photo-1475924156734-496f6cac6ec1.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main div div:nth-of-type(3) {
+    background-image: linear-gradient(to right,gold, black);
+}
+
+main div div:last-of-type {
+    background-image: linear-gradient(blue, white, red);
+}

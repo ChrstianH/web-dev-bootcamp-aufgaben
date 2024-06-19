@@ -1,0 +1,10 @@
+section {
+    background-color: linen;
+}
+section h1 {
+    background-color: lightblue;
+}
+
+article {
+    background-image: url(../img/photo-1475924156734-496f6cac6ec1.avif);
+}

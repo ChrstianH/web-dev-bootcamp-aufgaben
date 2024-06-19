@@ -1,0 +1,70 @@
+@font-face {
+    font-family: MontserratRegular; src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontserratBold; src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+* {
+    font-weight: bold;
+}
+:root {
+    --color-a020f0: #a020f0;
+    --color-00bfff: #00bfff;
+    --color-32cd32: #32cd32;
+    --color-c71585: #c71585;
+    --color-00ced1: #00ced1;
+    --color-483d8b: #483d8b;
+    --color-2e8b57: #2e8b57;
+}
+
+h3::first-letter{
+    font-size: 48px;
+    color: var(--color-2e8b57);
+}
+h3:hover::first-letter{
+    color: var(--color-00bfff);
+}
+
+li:first-of-type::first-letter {
+    font-size: 36px;
+    color: var(--color-00bfff);
+    text-decoration: overline;
+}
+
+li:nth-of-type(2)::first-letter {
+    font-size: 36px;
+    color: var(--color-a020f0);
+    text-decoration: underline;
+}
+
+li:last-of-type::first-letter {
+    font-size: 36px;
+    color: var(--color-32cd32);
+}
+li:last-of-type {
+    text-decoration: line-through;
+}
+
+p:nth-child(even) {
+    font-size: 24px;
+}
+
+p:not(p:first-of-type)::first-line {
+    color: var(--color-2e8b57);
+}
+
+p:not(p:first-of-type):hover::first-line  {
+    color: var(--color-00bfff);
+}
+
+p:not(p:first-of-type)::first-letter {
+    font-size: 36px;
+    color: red;
+}
+
+p:first-child {
+    text-indent: 50px;
+    color: var(--color-483d8b);
+}

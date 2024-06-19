@@ -1,0 +1,18 @@
+
+nav {
+    background-color: lightgrey;
+    padding-left: 40px;
+}
+
+a {
+    color: orangered;
+    display: block;
+}
+
+span {
+    color: red;
+}
+
+p:nth-of-type(odd) {
+    color: orange;
+}
