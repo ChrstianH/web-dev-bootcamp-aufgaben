@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 33rem;
+    margin: 0 auto;
+}
+body {
+    width: 33rem;
+    margin: 0 auto;
+}
+
+form {
+    margin: 0 0 2rem 0rem;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: 0.6rem;
+}
+
+fieldset {
+    box-shadow: 4px 4px 10px #eee, -4px 4px 10px #eee ;
+    border: none;
+    width: 27rem;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    border-radius: 0 0 15px 15px;
+}
+
+section > div:first-of-type {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2rem 0 0 0;
+    width: 33.5rem;
+    background-color: #5A8CAA;
+    padding: 1.5rem 2rem;
+    border-radius: 15px 15px 0 0;
+    color: white;
+    font-weight: lighter;
+}
+
+textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: 1rem;
+    width: 28rem;
+    background-color: white;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fullname, .email, .passwords {
+    display: block;
+    padding: 1rem;
+    background-color: #eef0f0;
+    margin-bottom: 0.5rem;
+}
+
+.email > input[type="email"], .email > input[type="tel"],
+.fullname > input[type="text"], .passwords > input[type="password"] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: 1rem;
+    width: 28rem;
+    background-color: white;
+    margin-bottom: 0.75rem;
+    border: 1px solid #888;
+}
+
+
+input[type="submit"] {
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(90, 140, 170);
+    color: white;
+    border: none;
+    font-size: 0.75rem;
+}
+
+.buttons {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons div label, p {
+    font-size: 0.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+.buttons div input, .buttons div label {
+    vertical-align: bottom;
+}
+
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+li {
+    counter-increment: my-awesome-counter;
+    margin: 0.25rem;
+}
+
+li::before {
+    content: counter(my-awesome-counter);
+    font-size: .8rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1rem;
+    color: white;
+    text-align: center;
+    margin-left: -2.25rem;
+    background-color: #5A8CAA;
+}

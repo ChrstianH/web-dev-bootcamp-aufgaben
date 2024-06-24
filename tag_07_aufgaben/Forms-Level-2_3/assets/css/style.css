@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 2rem;
+}
+
+fieldset {
+    padding: 1rem;
+}
+
+div {
+    margin-top: 0.25rem;
+}
+
+label:not(.gender label:nth-of-type(2)):not(.gender label:nth-of-type(3)):not(.activity label:nth-of-type(2)):not(.activity label:nth-of-type(3)) {
+    display: inline-block;
+    width: 9rem;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 3px;
+}

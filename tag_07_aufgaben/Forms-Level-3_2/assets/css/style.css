@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 17rem;
+    margin: 1rem auto;
+}
+
+header, main {
+    background-color: #222;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.5rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    color: White;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+nav {
+    margin: 10px;
+}
+a {
+    display: block;
+    color: green;
+    font-size: 0.75rem;
+    text-align: right;
+}
+
+nav * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    display: inline;
+    color: White;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+nav p {
+    background-color: green;
+}
+nav a {
+    background-color: transparent;
+}
+nav a:hover {
+    background-color: lime;
+}
+
+input[type="submit"] {
+    letter-spacing: 7px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 15rem;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input[type="text"]{
+    width: 7.37rem;
+    background-color: #222;
+    font-size: 0.5rem;
+    line-height: 1.4rem;
+    margin: 0.5rem 0;
+}
+
+input[type="email"], input[type="password"] {
+    width: 15rem;
+    background-color: #222;
+    font-size: 0.5rem;
+    line-height: 1.4rem;
+    margin: 0.5rem 0;
+}
