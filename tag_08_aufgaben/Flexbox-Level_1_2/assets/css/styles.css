@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/wynand-van-poortvliet-4AmyOdXZAQc-unsplash.jpg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    opacity: 0.4;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 1.25rem;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.8rem;
+}

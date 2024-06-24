@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+header {
+    height: 76px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    font-size: 1.25rem;
+    color: #666;
+}
+.logo:hover {
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.8rem;
+}
+a:hover {
+    color: #337ab7;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+li {
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 3.75rem;
+    color: white;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+p {
+    font-size: .87rem;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 2.25rem;
+    margin-top: 1.5rem;
+}
+
+input[type="button"]:first-of-type {
+    border: 2px solid #745CF9;
+    background: #745CF9;
+    padding: 15px 61px;
+    font-size: 0.75rem;
+    color: white;
+}
+
+input[type="button"]:first-of-type:hover {
+    border: 2px solid #634ED4;
+    background: #634ED4;
+}
+
+input[type="button"]:last-of-type {
+    padding: 15px 42px;
+    border: 2px solid #fff;
+    font-size: 0.75rem;
+    color: white;
+    background-color: transparent;
+}
+input[type="button"]:last-of-type:hover {
+    color: black;
+    background-color: white;
+}
