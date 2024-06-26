@@ -13,6 +13,10 @@ body {
     font-family: Raleway, sans-serif;
 }
 
+section {
+    height: 100vh;
+}
+
 /* ***** Header Styling ***** */
 
 header {
@@ -74,6 +78,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+section:first-of-type {
     background-image: url("../images/photo-1443527216320-7e744084f5a7-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,6 +126,28 @@ button:last-of-type:hover {
     background-color: white;
 }
 /* ***** End Main Styling ***** */
+
+/* ***** Footer Styling *** */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4.5rem 6rem;
+    background-color: #0e1015;
+    color: white;
+    align-items: center;
+}
+
+footer div a {
+    color:white;
+    margin: 0 10px;
+    font-size: 0.8rem;
+}
+
+footer p {
+    margin: 0;
+}
+/* ***** End Footer Styling *** */
 
 /* ***** Tablet Styling ***** */
 @media only screen and (max-width: 991px) {
@@ -171,8 +199,12 @@ button:last-of-type:hover {
     button:last-of-type {
         padding: 10px 32px;
     }
-}
 
+    footer {
+        height: 50px;
+        padding: 2.25rem 3rem;
+    }
+}
 
 /* ***** End Tablet Styling ***** */
 
@@ -226,5 +258,11 @@ button:last-of-type:hover {
     button:last-of-type {
         padding: 7px 25px;
     }
+
+    footer {
+        height: 30px;
+        padding: 1.75rem 3rem;
+    }
+
 }
 /* ***** End Handy Styling ***** */
