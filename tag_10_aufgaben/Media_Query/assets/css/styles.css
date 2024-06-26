@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+/* ***** Header Styling ***** */
+
+header {
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 25px;
+}
+
+.logo {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.8rem;
+}
+
+a:hover {
+    color: #337ab7;
+}
+
+nav div {
+    display: flex;
+    gap: 30px;
+}
+
+.burger-wrapper {
+    display: none;
+}
+
+.burger {
+    height: 5px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: black;
+}
+/* ***** End Header Styling ***** */
+
+/* ***** Main Styling ***** */
+section {
+    display: flex;
+    height: calc(100vh - 55px);
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 3.75rem;
+    color: white;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+p {
+    font-size: .87rem;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 1.88rem 0;
+}
+
+button {
+    font-size: 0.75rem;
+    color: white;
+}
+
+button:first-of-type {
+    border: 2px solid #745CF9;
+    background: #745CF9;
+    padding: 15px 61px;
+}
+
+button:first-of-type:hover {
+    border: 2px solid #3A2E7D;
+    background: #3A2E7D;
+}
+
+button:last-of-type {
+    padding: 15px 42px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+button:last-of-type:hover {
+    color: black;
+    background-color: white;
+}
+/* ***** End Main Styling ***** */
+
+/* ***** Tablet Styling ***** */
+@media only screen and (max-width: 991px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .burger-wrapper {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    section {
+        height: 100vh;
+    }
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    p {
+        font-size: .75rem;
+        color: white;
+        font-weight: 400;
+        line-height: 1.25rem;
+        margin: 1.5rem 0;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    button {
+        font-size: 0.6rem;
+    }
+    button:first-of-type {
+        padding: 10px 50px;
+    }
+    button:last-of-type {
+        padding: 10px 32px;
+    }
+}
+
+
+/* ***** End Tablet Styling ***** */
+
+/* ***** Handy Styling ***** */
+@media only screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .burger-wrapper {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    section {
+        height: 100vh;
+    }
+    h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    p {
+        font-size: .6rem;
+        color: white;
+        font-weight: 400;
+        line-height: 1rem;
+        margin: 1.25rem 0;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    button {
+        font-size: 0.5rem;
+    }
+    button:first-of-type {
+        padding: 7px 40px;
+    }
+    button:last-of-type {
+        padding: 7px 25px;
+    }
+}
+/* ***** End Handy Styling ***** */
