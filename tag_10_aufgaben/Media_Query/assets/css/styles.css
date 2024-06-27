@@ -15,12 +15,14 @@ body {
 
 section {
     height: 100vh;
+    width: 100vw;
 }
 
 /* ***** Header Styling ***** */
 
 header {
-    padding: 15px;
+    margin: 0;
+    width: 100vw;
     position: sticky;
     top: 0;
     background-color: white;
@@ -30,8 +32,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
-    height: 25px;
+    padding: 0 100px;
+    height: 76px;
+    width: 85vw;
 }
 
 .logo {
@@ -73,16 +76,48 @@ nav div {
 /* ***** Main Styling ***** */
 section {
     display: flex;
-    height: calc(100vh - 55px);
     width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 section:first-of-type {
+    height: calc(100vh - 76px);
     background-image: url("../images/photo-1443527216320-7e744084f5a7-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.seo-friendly, .portfolio {
+    padding: 6rem 10rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.seo-friendly img, .portfolio img {
+    width: 50vw;
+}
+
+.seo-friendly div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+}
+
+.read {
+    color: white;
+}
+
+.seo-friendly div p, .portfolio div p {
+    color: #8C979E;
+    font-size: .88rem;
+}
+
+.portfolio {
+    background-color: #F5F5F5;
 }
 
 h1 {
@@ -105,23 +140,28 @@ button {
     color: white;
 }
 
-button:first-of-type {
+.read, .see {
+    font-size: .75rem;
+}
+
+.readmore, .read, .see {
     border: 2px solid #745CF9;
     background: #745CF9;
     padding: 15px 61px;
 }
 
-button:first-of-type:hover {
+.readmore:hover, .read:hover, .see:hover {
     border: 2px solid #3A2E7D;
     background: #3A2E7D;
+    color: white;
 }
 
-button:last-of-type {
+.download {
     padding: 15px 42px;
     border: 2px solid #fff;
     background-color: transparent;
 }
-button:last-of-type:hover {
+.download:hover {
     color: black;
     background-color: white;
 }
