@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Monoton;
+    src: url("../fonts/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Ubuntu;
+    background-color: #070707;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 11rem 0 4.5rem;
+}
+
+div {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: #9d9f9f;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #f4f7f8;
+}
+
+div a {
+    font-size: .88rem;
+}
+
+nav a {
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 7.5rem;
+}
+h1 {
+    color: #9d9f9f;
+    font-family: Monoton;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+hr {
+    color: #9d9f9f;
+}
+
+h2 {
+    color: #f4f7f8;
+    font-size: 3.75rem;
+    position: absolute;
+    left: 216px;
+    top: 408px;
+    width: 20.75rem;
+}
+
+.images {
+    position: absolute;
+    left: 614px;
+    bottom: 102px;
+}
+
+img:first-of-type {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 19px;
+}
+img:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    left: 290px;
+    margin: 0 19px;
+}
+img:nth-of-type(3) {
+    position: absolute;
+    top: 0;
+    left: 580px;
+    margin: 0 19px;
+}
+
+.bar {
+    display: block;
+    position: absolute;
+    top: 629px;
+    left: 209px;
+    width: 40px;
+    height: 2px;
+    background-color: #AC8059;
+}
+
+p{
+    position: relative;
+    color: #AC8059;
+    font-size: 0.75rem;
+    top: -6px;
+    left: 50px;
+    width: 55px;
+}
