@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Cormorant;
+  src: url("../font/CormorantGaramond-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border-right: 1px solid black;
+  width: 1185px;
+  font-family: Cormorant;
+  background-color: #e9e9e0;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 1.88rem;
+  font-weight: 700;
+}
+
+.title span {
+  font-size: 45px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+}
+
+main {
+  display: flex;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1 fr 2fr;
+  grid-template-rows: respeat(4, 1fr);
+  grid-template-areas:
+    "headline headline headline"
+    "article1 article2 image"
+    "article3 article4 image"
+    "article5 article6 image";
+}
+
+.articles h2 {
+  font-size: 2.25rem;
+  text-align: center;
+  align-content: start;
+  justify-content: center;
+  margin-bottom: 0.84rem;
+  grid-area: headline;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.article p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+.kitchen {
+  grid-area: image;
+  width: 469px;
+}
+.art1 {
+  grid-area: article1;
+}
+.art2 {
+  grid-area: article2;
+}
+.art3 {
+  grid-area: article3;
+}
+.art4 {
+  grid-area: article4;
+}
+.art5 {
+  grid-area: article5;
+}
+.art6 {
+  grid-area: article6;
+}
+
+.ads {
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 20px auto;
+  gap: 20px;
+}
+.ads p {
+  align-self: center;
+  font-size: 1.17rem;
+  font-weight: 700;
+}
+
+.ad1,
+.ad2 {
+  padding: 25px;
+  border: 5px solid #333;
+  text-align: center;
+}
+.ad1 p {
+  font-size: 3.13rem;
+  font-weight: 700;
+  text-align: center;
+}
+.ad2 p:last-of-type {
+  font-size: 1.25rem;
+}
+.ad3 {
+  width: 217px;
+  height: 217px;
+  padding: 20px;
+  border: 5px solid #333;
+}
+.ikea {
+  width: 167px;
+}
