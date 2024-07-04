@@ -1,13 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    background-image: url("../img/antoine-rault-IhWRrZx4-kk-unsplash.jpg");
-    font-family: Arial, Helvetica, sans-serif;
-    background-size: 100vw 100vh;
+  background-image: url("../img/antoine-rault-IhWRrZx4-kk-unsplash.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 }
 
 p {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 48vh 0;
-    text-align: center;
-} 
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 48vh 0;
+  text-align: center;
+}
