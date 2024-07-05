@@ -1,4 +1,4 @@
 function changeColors(bgColor, fontColor) {
-  document.getElementsByTagName("header")[0].style.color = fontColor;
-  document.getElementsByTagName("body")[0].style.backgroundColor = bgColor;
+  document.querySelector("header").style.color = fontColor;
+  document.querySelector("body").style.backgroundColor = bgColor;
 }
