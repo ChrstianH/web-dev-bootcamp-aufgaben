@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conditionals-Level-1_2</title>
+  </head>
+  <body>
+    <h1>Wetter-Qalität</h1>
+    <section>
+      <form onsubmit="quality(); return false">
+        <input
+          type="number"
+          name="weather"
+          id="weather"
+          class="weather"
+          min="0"
+          max="10"
+        />
+        <input type="submit" value="Senden" />
+        <p class="result"></p>
+      </form>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

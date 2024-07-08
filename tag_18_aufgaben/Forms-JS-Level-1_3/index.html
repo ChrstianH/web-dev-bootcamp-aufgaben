@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms-JS-Level-1_3</title>
+  </head>
+  <body>
+    <section>
+      <form onsubmit="calcDiff(); return false">
+        <label for="age1">Alter 1</label>
+        <input type="number" name="age1" id="age1" class="age1" />
+        <br />
+        <label for="age2">Alter 2</label>
+        <input type="number" name="age2" id="age2" class="age2" />
+        <br />
+        <input type="submit" value="Berechne!" />
+        <br />
+        <p>Die Differenz ist:</p>
+        <p class="ageDiff"></p>
+      </form>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
