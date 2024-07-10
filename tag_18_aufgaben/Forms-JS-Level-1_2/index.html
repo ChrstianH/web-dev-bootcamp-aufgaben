@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms-JS-Level-1_2</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    </style>
   </head>
   <body>
     <section>
       <form onsubmit="calcAge(); return false">
         <label for="bYear">Gib dein Geburtsjahr ein</label>
-        <br />
         <input type="number" name="bYear" id="bYear" class="bYear" />
-        <br />
         <input type="submit" value="Berechne mein Alter" />
         <p class="age"></p>
       </form>

@@ -8,14 +8,15 @@
   <body>
     <section>
       <form onsubmit="calcDiff(); return false">
-        <label for="age1">Alter 1</label>
-        <input type="number" name="age1" id="age1" class="age1" />
-        <br />
-        <label for="age2">Alter 2</label>
-        <input type="number" name="age2" id="age2" class="age2" />
-        <br />
+        <div>
+          <label for="age1">Alter 1</label>
+          <input type="number" name="age1" id="age1" class="age1" />
+        </div>
+        <div>
+          <label for="age2">Alter 2</label>
+          <input type="number" name="age2" id="age2" class="age2" />
+        </div>
         <input type="submit" value="Berechne!" />
-        <br />
         <p>Die Differenz ist:</p>
         <p class="ageDiff"></p>
       </form>

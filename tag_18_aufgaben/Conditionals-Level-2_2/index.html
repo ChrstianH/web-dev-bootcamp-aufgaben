@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Conditionals-Level-2_2</title>
   </head>
   <body>
     <section>
       <form>
-        <label for="airQuality">Luftqualität</label>
+        <div>
+          <label for="airQuality">Luftqualität</label>
+          <p class="airQualityLevel"></p>
+        </div>
         <input
           type="range"
           name="airQuality"
@@ -19,9 +23,7 @@
           step="1"
           onchange="checkAirQuality(); return false"
         />
-        <p class="airQualityLevel"></p>
-        <br />
-        <p class="result"></p>
+        <h3 class="result"></h3>
       </form>
     </section>
     <script src="./assets/js/main.js"></script>

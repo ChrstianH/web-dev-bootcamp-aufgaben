@@ -5,7 +5,9 @@ function numDiff() {
 
   if (number > 27) {
     console.log(difference * 2);
+    document.querySelector(".result").innerHTML = difference * 2;
   } else {
     console.log(difference);
+    document.querySelector(".result").innerHTML = difference;
   }
 }
