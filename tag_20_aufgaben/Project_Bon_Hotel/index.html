@@ -14,19 +14,19 @@
         class="header-logo"
       />
       <nav>
-        <a href="#">Our Hotel</a>
-        <a href="#">Rooms & Rates</a>
-        <a href="#">Facilities</a>
-        <a href="#">Contact Us</a>
+        <a href="#our_hotel">Our Hotel</a>
+        <a href="#rooms_rates">Rooms & Rates</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact Us</a>
       </nav>
     </header>
-    <section class="hero">
+    <section class="hero" id="our_hotel">
       <h1>Welcome to Bon Hotel</h1>
       <p>Good people. Good thinking. Good feeling.</p>
       <button type="button">Explore</button>
     </section>
 
-    <section class="facilities">
+    <section class="facilities" id="facilities">
       <h2>Facilities</h2>
       <div class="facility-container">
         <div class="kitchen">
@@ -52,7 +52,7 @@
       </div>
     </section>
 
-    <section class="rooms">
+    <section class="rooms" id="rooms_rates">
       <h2>Rooms & Rates</h2>
       <div class="room-container">
         <div class="str">
@@ -79,15 +79,19 @@
       <button type="button">Book now</button>
     </section>
 
-    <footer>
-      <img
-        src="./assets/images/logo_footer.png"
-        alt="Logo Footer"
-        class="footer-logo"
-      />
-      <p class="address">
-        Bon Hotels Head Office<br />+27 434 344 432<br />info@bonhotels.com
-      </p>
+    <footer id="contact">
+      <div class="logo-address">
+        <img
+          src="./assets/images/logo_footer.png"
+          alt="Logo Footer"
+          class="footer-logo"
+        />
+        <div class="address">
+          <p>Bon Hotels Head Office</p>
+          <p>+27 434 344 432</p>
+          <p>info@bonhotels.com</p>
+        </div>
+      </div>
       <div class="links">
         <a href="#">Our Hotels</a>
         <a href="#">Our Conferencing</a>
