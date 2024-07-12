@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("../font/Ubuntu/ubuntu-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1441px;
+  font-family: Ubuntu;
+}
+
+header {
+  padding-top: 51px;
+  padding-bottom: 101px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 76px;
+
+  .header-logo {
+    width: 151px;
+  }
+
+  nav {
+    display: flex;
+    gap: 50px;
+    a {
+      text-decoration: none;
+      color: #957554;
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}
+
+.hero {
+  background-image: url("../images/hero_image.png");
+  h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 319px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 41px;
+  }
+  button {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    width: 371px;
+    padding: 24px 133px;
+    background-color: #dfaa5b;
+    margin: 0 535px 123px 535px;
+  }
+}
+
+.facilities {
+  margin-top: 27px;
+  h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: #957554;
+    margin-bottom: 47px;
+  }
+  .facility-container {
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+    margin-bottom: 128px;
+
+    .kitchen,
+    .pool,
+    .wifi,
+    .gym,
+    .taxi {
+      display: flex;
+      flex-direction: column;
+      gap: 21px;
+      text-align: center;
+    }
+  }
+}
+
+.rooms {
+  h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: #957554;
+    margin-bottom: 47px;
+  }
+  .room-container {
+    display: grid;
+  }
+}
