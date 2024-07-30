@@ -1,6 +1,6 @@
 @font-face {
   font-family: Ubuntu;
-  src: url("../font/Ubuntu/ubuntu-Regular.ttf");
+  src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
 }
 * {
   margin: 0;
@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   max-width: 1441px;
   font-family: Ubuntu;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -90,6 +91,7 @@ header nav a {
   flex-direction: column;
   gap: 21px;
   text-align: center;
+  color: #957554;
 }
 
 .rooms h2 {
@@ -101,6 +103,168 @@ header nav a {
 }
 .rooms .room-container {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin: 60px;
+}
+.rooms .room-container .str, .rooms .room-container .sr, .rooms .room-container .svr, .rooms .room-container .dr {
+  text-align: center;
+}
+.rooms .room-container .str {
+  background-image: url(../images/standard_twin_room.png);
+  background-repeat: no-repeat;
+}
+.rooms .room-container .str h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 301px;
+  margin-bottom: 19px;
+}
+.rooms .room-container .str button {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding: 24px 54px;
+  background-color: #dfaa5b;
+  margin: 0 184px 58px 184px;
+}
+.rooms .room-container .sr {
+  background-image: url(../images/standard_room.png);
+  background-repeat: no-repeat;
+}
+.rooms .room-container .sr h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 301px;
+  margin-bottom: 19px;
+}
+.rooms .room-container .sr button {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding: 24px 54px;
+  background-color: #dfaa5b;
+  margin: 0 184px 58px 184px;
+}
+.rooms .room-container .svr {
+  background-image: url(../images/standard_view_room.png);
+  background-repeat: no-repeat;
+}
+.rooms .room-container .svr h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 301px;
+  margin-bottom: 19px;
+}
+.rooms .room-container .svr button {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding: 24px 54px;
+  background-color: #dfaa5b;
+  margin: 0 184px 58px 184px;
+}
+.rooms .room-container .dr {
+  background-image: url(../images/deluxe_room.png);
+  background-repeat: no-repeat;
+}
+.rooms .room-container .dr h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 301px;
+  margin-bottom: 19px;
+}
+.rooms .room-container .dr button {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding: 24px 54px;
+  background-color: #dfaa5b;
+  margin: 0 184px 58px 184px;
+}
+
+.booking h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  color: #957554;
+  margin-bottom: 47px;
+}
+.booking button {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding: 24px 143px;
+  background-color: #dfaa5b;
+  margin: 0 514px 118px 515px;
+}
+
+footer {
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 61px;
+  padding-right: 70px;
+  padding-left: 60px;
+}
+footer .logo-address {
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+  padding-bottom: 131px;
+}
+footer .logo-address .footer-logo {
+  width: 154px;
+}
+footer .logo-address .address {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+footer .logo-address .address p:first-of-type {
+  font-weight: 500;
+}
+footer .subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .subscribe h3 {
+  color: white;
+  font-size: 30px;
+}
+footer .subscribe form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .subscribe form input[type=email] {
+  font-size: 24px;
+  padding: 24px 27px;
+}
+footer .subscribe form input[type=submit] {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  background-color: #dfaa5b;
+  padding: 24px 106px;
+}
+footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .links a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
