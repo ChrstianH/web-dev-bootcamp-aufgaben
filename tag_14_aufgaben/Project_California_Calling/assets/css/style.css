@@ -203,3 +203,64 @@ article h1 span {
   padding: 168px 110px 0 110px;
   height: 1045px;
 }
+
+.goldenbear article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 23.2px;
+  justify-content: space-between;
+}
+.page {
+  font-family: WorkSans;
+  font-size: 19.75px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+  text-align: left;
+}
+
+.goldenbear article div:nth-of-type(1) {
+  color: #fff;
+}
+
+.goldenbear article div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goldenbear article div:nth-of-type(2) h2 {
+  font-family: Inter;
+  font-size: 83.6px;
+  color: white;
+  font-weight: 700;
+  line-height: 82.3px;
+  text-align: left;
+  width: 300px;
+}
+
+.goldenbear article div:nth-of-type(2) div {
+  display: flex;
+  flex-direction: column;
+  gap: 21.3px;
+}
+
+.goldenbear article div:nth-of-type(2) p:first-of-type {
+  font-family: Inter;
+  font-size: 29px;
+  color: white;
+  font-weight: 700;
+  line-height: 32.9px;
+  letter-spacing: -0.4px;
+  text-align: left;
+  width: 510px;
+}
+.goldenbear article div:nth-of-type(2) .small-text {
+  font-family: WorkSans;
+  font-size: 18.4px;
+  color: white;
+  font-weight: 400;
+  line-height: 29.6px;
+  letter-spacing: -0.4px;
+  text-align: left;
+}
